@@ -1,0 +1,207 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+   
+    
+    
+    background: linear-gradient(#fff,purple);
+}
+
+.container{
+    width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 3vh;
+    margin-left: 74%;
+    font-size: 2.7rem;
+    color: black;
+}
+
+.post header{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 17px 0;
+    text-align: center;
+    padding: 17px 0;
+    border-bottom: 1px solid #bfbfbf;
+
+}
+.post form{
+    margin: 20px 25px;
+}
+
+.post form :where( .content, .details .privacy){
+    display: flex;
+    align-items: center;
+}
+
+.post form .content img{
+    max-width: 52px;
+}
+
+.post form .content .details{
+    margin: -3px 0 0 12px;
+}
+
+form .content .details p{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+form .content .details .privacy{
+    cursor: pointer;
+    background: #e4e6eb;
+    max-width: 98px;
+    font-size: 11px;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.details .privacy span{
+    font-size: 13px;
+    margin-top: 1px;
+    font-weight: 500;
+}
+
+.details .privacy i:last-child{
+    font-size: 13px;
+    margin-left: 1px;
+}
+
+.post form :where(textarea, button){
+    width:100%;
+    outline: none;
+    border: none;
+}
+.post form textarea{
+    resize: none;
+    font-size: 18px;
+    margin-top: 30px;
+    min-height: 100px;
+}
+
+.post form .theme-emoji{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+form .theme-emoji img{
+    cursor: pointer;
+}
+
+form .theme-emoji img:last-child{
+    max-width: 24px;
+}
+
+form .options{
+    border:1px solid #b9b9b9;
+    height: 57px ;
+    border-radius: 7px;
+    padding: 0 15px;
+    margin: 15px 0;
+}
+
+form .options p{
+    color: #595959;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+form .options .list li{
+    list-style: none ;
+    height: 42px;
+    width: 42px;
+    background:#f0f1f4;
+    border-radius: 50%;
+}
+
+form .options :where(.list, li){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options .list li:hover{
+    background: #f0f1f4;
+}
+
+.options .list li img{
+    cursor: pointer;
+    width: 23px; 
+}
+
+form button{
+    height:53px;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+
+
+
+
+
+
+
+.main{
+    width:210vh;
+    height:100vh;
+    display:flex;
+    text-align:center;
+}
+
+.menu{
+    width: 20%;
+    background-color: #6a1b9a;
+     opacity: 0.75;
+    /* my selected color #5A37C3 */ 
+}
+
+.top-space{
+    margin-top: 10vh;
+}
+
+.logo{
+    color:#fff;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding: 20px;
+    background-color: black;
+}
+.menu a{
+    margin-top: 3vh;
+    background-color: #7b1fa2;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    display: list-item;
+    padding: 20px;
+
+    border-bottom: 0.3px solid black;
+}
+.menu a:hover{
+    background-color: black;
+    
+    transition: 0.5s;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+} 
+hr{
+    width: 510%;
+}
